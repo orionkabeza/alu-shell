@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#On the 9th iteration the comman d will dtop and print Hi.
+count="1"
+while [ "$count" -le 10 ]
+do echo "Best School"
+if [ "$count" -eq 9 ]
+then
+echo "Hi"
+fi
+count=$((count + 1))
+done
