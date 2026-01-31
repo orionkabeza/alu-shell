@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#the while loop is used by assigning a variable and using -le or ge.
+count="1"
+while [ $count -le 10 ]
+do
+echo "Best School"
+count=$((count + 1 ))
+done
