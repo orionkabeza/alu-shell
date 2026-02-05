@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-#change all subdirectories permissions to execute
-find . -type d -exec chmod a+x {} \;
